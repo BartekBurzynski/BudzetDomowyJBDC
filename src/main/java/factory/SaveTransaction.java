@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class SaveTransaction {
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+    public void downloadAndSaveTransactionToAppliation() throws SQLException, ClassNotFoundException {
         Scanner input = new Scanner(System.in);
         System.out.println("Podaj typ");
         String type = input.nextLine();

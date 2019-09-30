@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class UptadeTransaction {
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+    public void uptadeTransactionByUserToApplication() throws SQLException, ClassNotFoundException {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Podaj id");

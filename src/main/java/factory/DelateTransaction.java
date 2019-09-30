@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class DelateTransaction {
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+    public void delateTransactionFromApplication() throws SQLException, ClassNotFoundException {
 
         Scanner input = new Scanner(System.in);
 
